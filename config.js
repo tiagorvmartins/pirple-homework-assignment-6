@@ -10,14 +10,16 @@
  environments.staging = {
    'httpPort': 4000,
    'httpsPort': 4001,
-   'envName': 'staging'
+   'envName': 'staging',
+   'serverListenCpuCoresAmount': 0 //0 in order to use all available in the local machine
  };
 
  // Production environments
  environments.production = {
    'httpPort': 9000,
    'httpsPort': 9001,
-   'envName': 'production'
+   'envName': 'production',
+   'serverListenCpuCoresAmount': 0 //0 in order to use all available in the local machine
  };
 
  // Determine which environment was passed as a command-line argument
