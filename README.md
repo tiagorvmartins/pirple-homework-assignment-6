@@ -3,6 +3,7 @@ This is my public repo for the Pirple Homework Assignment #6
 
 Simple project that serves an API at /hello using several CPU cores (using the cluster lib), returning a simple JSON block to the user, like the following:
 
+``` json
 {
     "WelcomeMessage": "Hello you successfuly reached my 'hello' endpoint. Have a nice day, thank you.",
     "StatusCode": "200",
@@ -22,6 +23,7 @@ Simple project that serves an API at /hello using several CPU cores (using the c
         "payload": ""
     }
 }
+```
 
 The amount of CPU cores to use is configurable in the config.js file.
 In order to use all the available cores of the machine just insert use the number zero (0).
